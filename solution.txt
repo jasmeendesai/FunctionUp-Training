@@ -1,0 +1,5 @@
+Q. What is the difference between git restore filename and git restore --staged filename?
+
+Ans. git restore <filename> is used to restore the contents of a file in your working directory to the last committed version in your Git repository. This command is useful if you have made changes to a file and want to discard those changes and get back to the last committed version.
+
+git restore --staged <filename> is used to unstage changes to a file that you have previously staged using git add. This command is useful if you have staged changes to a file, but now want to unstage them without losing the changes you made to the file.
